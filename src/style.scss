@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gold;
+  position: relative;
+}
+
+.nav {
+  background: red;
+  width: 50%;
+  display: flex;
+}
+
+.nav-item {
+  width: 25%;
+  background: silver;
+  margin: 10px;
+}
+
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+
+
+  img{
+    width: 50%;
+  }
+}
