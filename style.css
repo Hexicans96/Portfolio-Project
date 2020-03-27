@@ -11,5 +11,21 @@ body {
 h1 {
   font-size: 150px;
   color: white;
-  font-family: 'Liu Jian Mao Cao', cursive;
+  font-family: "Liu Jian Mao Cao", cursive;
 }
+
+.container header h1 {
+  font-size: 100px;
+  color: white;
+}
+.container header p {
+  font-size: 25px;
+}
+.container header h3 {
+  font-weight: bold;
+}
+.container header h4 {
+  font-size: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */
