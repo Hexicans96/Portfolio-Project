@@ -1,4 +1,5 @@
 $my-red: rgb(191, 77, 77);
+$borders:steelblue;
 
 * {
   margin: 0;
@@ -7,23 +8,38 @@ $my-red: rgb(191, 77, 77);
   font-family: 'Londrina Solid', cursive;
   font-size: 20px;
 }
+html{
+  height: 100%;
+}
+body {
+  background: url("../docs/background4.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  // margin:auto;
+  padding:0;
+  height:100%;
+  width:100%;  
+}
 
 .page-background {
-  background-image: url(../docs/background3.jpeg);
-  background-size: 50%;
-  z-index: 1;
+  // background-image: url(../docs/background3.jpeg);
+  background-size: 100%;
+//   z-index: 1;
   display: flex;
   justify-content: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
+
+
 
 .page {
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 80%;
-    background-color: rgb(91, 76, 76);
-
+background-color: rgb(91, 76, 76);
   flex-direction: column;
 }
 
@@ -36,15 +52,15 @@ $my-red: rgb(191, 77, 77);
 
 h1 { 
   font-family: 'Special Elite', cursive;
-  font-size: 150px;
+  font-size: 100px;
 }
 
 h2 {
-  font-size: 80px;
+  font-size: 50px;
+  margin: 5px;
 }
 
 .nav {
-
   display: flex;
   height: 95%;
   width: 175px;
@@ -59,33 +75,60 @@ h2 {
   flex-direction: column;
   justify-content: center;
   background-color: rgb(205, 182, 140);
-    border: solid 3px rgb(136, 51, 68);
+  border: solid 3px rgb(136, 51, 68);
+}
+
+// .nav :nth-child(2) {
+//   margin-bottom: 250px;
+// }
+
+
+.nav-item {
+  background: rgb(233, 230, 230);
+  margin-top: 15px;
+  font-size: 22px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  // justify-content: space-around;
+  a {
+    text-decoration: none;
+    color: cornflowerblue;
+    margin: 5px;
+  }
 }
 
 .nav :nth-child(2) {
-  position: absolute;
-  top: 50px;
+  margin-bottom: 150px;
+
 }
 
-.nav-item {
-  background: rgb(7, 1, 1);
-  margin-top: 15px;
-  font-size: 22px;
-  a {
-    text-decoration: none;
-    color: whitesmoke;
+.skills{
+  h3{
+    font-size: 45px;
+  }
+  i{
+    font-size: 30px;
+    margin: 5px;
+    color: silver;
   }
 }
+
+
 
 img{
  height: 350px;
  width: 300px;
  border-radius: 25px;
+ border: $my-red double 1.5px;
+ 
 }
 
 header {
   h1{
     text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
   }
 }
 
@@ -118,7 +161,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-   background-color: $my-red;
+  background-color: $my-red;
+  border: groove 10px gray;
 }
 
 .content-item {
@@ -157,6 +201,8 @@ footer{
   left: auto;
   right: auto;
   align-self: center;
+  opacity: 0.3;
+  font-size: 10px;
 }
 
 .blog-content-wrapper { 
@@ -173,21 +219,121 @@ footer{
     width: 50%;
     margin: 50px;
     background-color: $my-red;
+    border: groove 10px gray;
+  }
+  p{
+    margin: 10px;
   }
 }
 
 .photo-and-about {
   display: flex;
+  
 }
 
 .dog {
   display: flex;
-  height: 100px;
-  margin: 10px;
+
+  margin-top: 45px;
   img{
-    height: 150px;
+    height: 250px;
     object-fit: cover;
-    margin: 10px;
   }
+}
+
+.blog-post-wrapper {
+  display: flex;
+  flex-direction: column;
+  // background-color: silver;
+}
+
+.blog-post {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: steelblue;
+  border: solid 3px gray;
+
+  img{
+  width: 130px;
+  height: 130px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+
+  }
+  p{
+    margin: 15px;
+  }
+  h3{
+    margin: 15px;
+  }
+}
+
+
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+
+}
+
+.contact-item {
+  margin: 50px;
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  i{
+    color: $my-red;
+    font-size: 45px;
+  }
+}
+
+
+// .contact-item{
+//   i:hover{
+//   color: slategray;
+//   }
+//   p{
+//     display: none;
+//   }
+// }
+
+.contact-item i:hover {
+  color: slategray;
+  .contact-item i::after {content: "0423 822 863";
+}
+}
+
+.projects {
+  display: flex;
+  border: groove $borders 2px;
+  width: 80%;
+  height: 80%;
+  justify-content: space-around;
+  align-items: center;
+  h3{
+    font-size: 50px;
+  }
+  i{
+    font-size: 45px;
+    color: $my-red
+  }
+}
+
+.project-item {
+  img{
+    background-size: cover;
+  }
+}
+
+.date {
+  font-size: 15px;
+  opacity: 0.75;
 }
 
