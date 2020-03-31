@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Londrina Solid", cursive;
+  font-size: 20px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: url("../docs/background4.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.page-background {
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.page {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  background-color: #5b4c4c;
+  flex-direction: column;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Special Elite", cursive;
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 5px;
+}
+
+.nav {
+  display: flex;
+  height: 95%;
+  width: 175px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 192px;
+  border-radius: 0px 15px 45px 0px;
+  padding: 20px;
+  overflow-x: hidden;
+  padding-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #cdb68c;
+  border: solid 3px #883344;
+}
+
+.nav-item {
+  background: #e9e6e6;
+  margin-top: 15px;
+  font-size: 22px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.nav-item a {
+  text-decoration: none;
+  color: cornflowerblue;
+  margin: 5px;
+}
+
+.nav :nth-child(2) {
+  margin-bottom: 150px;
+}
+
+.skills h3 {
+  font-size: 45px;
+}
+.skills i {
+  font-size: 30px;
+  margin: 5px;
+  color: silver;
+}
+
+img {
+  height: 350px;
+  width: 300px;
+  border-radius: 25px;
+  border: #bf4d4d double 1.5px;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.page-content {
+  display: flex;
+  height: 100%;
+  margin-left: 250px;
+  margin-top: 50px;
+  margin-right: 150px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-and-greeting {
+  display: flex;
+}
+.photo-and-greeting h2 {
+  text-align: center;
+}
+
+.greeting {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bf4d4d;
+  border: groove 10px gray;
+}
+
+.content-item {
+  font-size: 25px;
+  margin: 15px;
+}
+
+.recent-blogs {
+  width: 100%;
+  display: flex;
+  background-color: #487193;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.blog-items {
+  background-color: cornsilk;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 750px;
+  border: solid silver 3px;
+}
+.blog-items p {
+  font-size: 17px;
+  opacity: 0.5;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: auto;
+  right: auto;
+  align-self: center;
+  opacity: 0.3;
+  font-size: 10px;
+}
+
+.blog-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.blog-content-wrapper img {
+  margin-left: 10px;
+  border-radius: 10px;
+  height: 450px;
+}
+.blog-content-wrapper article {
+  width: 50%;
+  margin: 50px;
+  background-color: #bf4d4d;
+  border: groove 10px gray;
+}
+.blog-content-wrapper p {
+  margin: 10px;
+}
+
+.photo-and-about {
+  display: flex;
+}
+
+.dog {
+  display: flex;
+  margin-top: 45px;
+}
+.dog img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.blog-post-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-post {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: steelblue;
+  border: solid 3px gray;
+}
+.blog-post img {
+  width: 130px;
+  height: 130px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+}
+.blog-post p {
+  margin: 15px;
+}
+.blog-post h3 {
+  margin: 15px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.contact-item {
+  margin: 50px;
+}
+.contact-item a {
+  text-decoration: none;
+  color: black;
+}
+.contact-item i {
+  color: #bf4d4d;
+  font-size: 45px;
+}
+
+.contact-item i:hover {
+  color: slategray;
+}
+.contact-item i:hover .contact-item i::after {
+  content: "0423 822 863";
+}
+
+.projects {
+  display: flex;
+  border: groove steelblue 2px;
+  width: 80%;
+  height: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
+.projects h3 {
+  font-size: 50px;
+}
+.projects i {
+  font-size: 45px;
+  color: #bf4d4d;
+}
+
+.project-item img {
+  background-size: cover;
+}
+
+.date {
+  font-size: 15px;
+  opacity: 0.75;
+}
+
+/*# sourceMappingURL=style.css.map */
