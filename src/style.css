@@ -8,6 +8,11 @@
 
 html {
   height: 100%;
+<<<<<<< HEAD
+  width: 100%;
+  position: relative;
+=======
+>>>>>>> master
 }
 
 body {
@@ -19,6 +24,10 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
+<<<<<<< HEAD
+  position: relative;
+=======
+>>>>>>> master
 }
 
 .page-background {
@@ -32,20 +41,31 @@ body {
 .page {
   display: flex;
   height: 100%;
+<<<<<<< HEAD
+  width: 100%;
+=======
   width: 80%;
   background-color: #5b4c4c;
+>>>>>>> master
   flex-direction: column;
 }
 
 .nav-wrapper {
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
+=======
   align-items: center;
+>>>>>>> master
 }
 
 h1 {
   font-family: "Special Elite", cursive;
+<<<<<<< HEAD
+  font-size: 80px;
+=======
   font-size: 100px;
+>>>>>>> master
 }
 
 h2 {
@@ -56,25 +76,40 @@ h2 {
 .nav {
   display: flex;
   height: 95%;
+<<<<<<< HEAD
+  width: 8%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 100px;
+=======
   width: 175px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 192px;
+>>>>>>> master
   border-radius: 0px 15px 45px 0px;
   padding: 20px;
   overflow-x: hidden;
   padding-top: 20px;
   flex-direction: column;
   justify-content: center;
+<<<<<<< HEAD
+  background-color: slategray;
+=======
   background-color: #cdb68c;
+>>>>>>> master
   border: solid 3px #883344;
 }
 
 .nav-item {
   background: #e9e6e6;
   margin-top: 15px;
+<<<<<<< HEAD
+=======
   font-size: 22px;
+>>>>>>> master
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -83,6 +118,10 @@ h2 {
   text-decoration: none;
   color: cornflowerblue;
   margin: 5px;
+<<<<<<< HEAD
+  font-size: 1.2vw;
+=======
+>>>>>>> master
 }
 
 .nav :nth-child(2) {
@@ -90,7 +129,12 @@ h2 {
 }
 
 .skills h3 {
+<<<<<<< HEAD
+  font-size: 40px;
+  margin-top: 0;
+=======
   font-size: 45px;
+>>>>>>> master
 }
 .skills i {
   font-size: 30px;
@@ -129,6 +173,11 @@ header h1 {
 
 .photo-and-greeting {
   display: flex;
+<<<<<<< HEAD
+  align-items: center;
+  justify-content: center;
+=======
+>>>>>>> master
 }
 .photo-and-greeting h2 {
   text-align: center;
@@ -139,6 +188,10 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
+  width: 50%;
+=======
+>>>>>>> master
   background-color: #bf4d4d;
   border: groove 10px gray;
 }
@@ -174,6 +227,27 @@ header h1 {
 footer {
   position: fixed;
   bottom: 0;
+<<<<<<< HEAD
+  width: 100%;
+  text-align: center;
+  opacity: 0.5;
+  font-size: 13px;
+  color: wheat;
+}
+
+.about-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.about-content-wrapper img {
+  border-radius: 10px;
+  height: 450px;
+}
+.about-content-wrapper article {
+=======
   left: auto;
   right: auto;
   align-self: center;
@@ -193,17 +267,26 @@ footer {
   height: 450px;
 }
 .blog-content-wrapper article {
+>>>>>>> master
   width: 50%;
   margin: 50px;
   background-color: #bf4d4d;
   border: groove 10px gray;
 }
+<<<<<<< HEAD
+.about-content-wrapper p {
+=======
 .blog-content-wrapper p {
+>>>>>>> master
   margin: 10px;
 }
 
 .photo-and-about {
   display: flex;
+<<<<<<< HEAD
+  align-items: center;
+=======
+>>>>>>> master
 }
 
 .dog {
@@ -245,6 +328,19 @@ footer {
   margin: 15px;
 }
 
+<<<<<<< HEAD
+.thumbnail:hover {
+  position: relative;
+  top: -25px;
+  left: -35px;
+  width: 500px;
+  height: 500px;
+  display: block;
+  z-index: 999;
+}
+
+=======
+>>>>>>> master
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -258,15 +354,28 @@ footer {
   text-decoration: none;
   color: black;
 }
+<<<<<<< HEAD
+.contact-item p {
+  color: #e1e3e8;
+}
+=======
+>>>>>>> master
 .contact-item i {
   color: #bf4d4d;
   font-size: 45px;
 }
 
+<<<<<<< HEAD
+.contact-item i:hover, .project-item i:hover {
+  color: slategray;
+}
+.contact-item i:hover .contact-item i::after, .project-item i:hover .contact-item i::after {
+=======
 .contact-item i:hover {
   color: slategray;
 }
 .contact-item i:hover .contact-item i::after {
+>>>>>>> master
   content: "0423 822 863";
 }
 
@@ -295,4 +404,124 @@ footer {
   opacity: 0.75;
 }
 
+<<<<<<< HEAD
+@media screen and (max-width: 640px), screen and (max-width: 1024px) {
+  .nav {
+    height: 100px;
+    width: 100%;
+    flex-direction: row;
+    left: 0;
+  }
+
+  .nav-item {
+    width: auto;
+    height: auto;
+    margin: 3px;
+    flex-direction: row;
+  }
+  .nav-item a {
+    font-size: 20px;
+  }
+
+  .nav :nth-child(2) {
+    margin: 5px;
+  }
+
+  #hidden {
+    display: none;
+  }
+
+  .page {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+
+  header {
+    margin-top: 300px;
+  }
+
+  .phone-background {
+    background-image: url(../docs/background4.jpeg);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .photo-and-greeting {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dog {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body {
+    background-repeat: repeat;
+    background-size: auto;
+    height: auto;
+  }
+
+  .projects {
+    border: none;
+  }
+
+  .page-content {
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+  .contact-info {
+    height: 100%;
+  }
+
+  .blog-content-wrapper {
+    width: 100%;
+  }
+  .blog-content-wrapper h2 {
+    display: none;
+  }
+
+  .photo-and-about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .greeting {
+    width: 80%;
+  }
+
+  .blog-post {
+    background: none;
+    border: steelblue solid 3px;
+    flex-direction: column;
+  }
+}
+
+=======
+>>>>>>> master
 /*# sourceMappingURL=style.css.map */
