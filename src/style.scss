@@ -8,6 +8,7 @@ $borders:steelblue;
   font-family: 'Londrina Solid', cursive;
   font-size: 20px;
 }
+<<<<<<< HEAD
 // .phone-background {
 //   display: none;
 // }
@@ -16,6 +17,10 @@ html{
   height: 100%;
   width: 100%;
   position: relative;
+=======
+html{
+  height: 100%;
+>>>>>>> master
 }
 body {
   background: url("../docs/background4.jpeg");
@@ -23,6 +28,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   text-align:center;
+<<<<<<< HEAD
   padding:0;
   height:100%;
   width:100%;  
@@ -31,6 +37,18 @@ body {
 
 .page-background {
   background-size: 100%;
+=======
+  // margin:auto;
+  padding:0;
+  height:100%;
+  width:100%;  
+}
+
+.page-background {
+  // background-image: url(../docs/background3.jpeg);
+  background-size: 100%;
+//   z-index: 1;
+>>>>>>> master
   display: flex;
   justify-content: center;
   height: 100%;
@@ -39,24 +57,41 @@ body {
 
 
 
+<<<<<<< HEAD
 
 .page {
 display: flex;
 height: 100%;
 width: 100%;
 flex-direction: column;
+=======
+.page {
+  display: flex;
+  height: 100%;
+  width: 80%;
+background-color: rgb(91, 76, 76);
+  flex-direction: column;
+>>>>>>> master
 }
 
 
 .nav-wrapper {
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
 
+=======
+  align-items: center;
+>>>>>>> master
 }
 
 h1 { 
   font-family: 'Special Elite', cursive;
+<<<<<<< HEAD
   font-size: 80px;
+=======
+  font-size: 100px;
+>>>>>>> master
 }
 
 h2 {
@@ -67,26 +102,48 @@ h2 {
 .nav {
   display: flex;
   height: 95%;
+<<<<<<< HEAD
   width: 8%;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 100px;
+=======
+  width: 175px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 192px;
+>>>>>>> master
   border-radius: 0px 15px 45px 0px;
   padding: 20px;
   overflow-x: hidden;
   padding-top: 20px;
   flex-direction: column;
   justify-content: center;
+<<<<<<< HEAD
   background-color: slategray;
   border: solid 3px rgb(136, 51, 68);
 }
 
+=======
+  background-color: rgb(205, 182, 140);
+  border: solid 3px rgb(136, 51, 68);
+}
+
+// .nav :nth-child(2) {
+//   margin-bottom: 250px;
+// }
+>>>>>>> master
 
 
 .nav-item {
   background: rgb(233, 230, 230);
   margin-top: 15px;
+<<<<<<< HEAD
+=======
+  font-size: 22px;
+>>>>>>> master
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -95,9 +152,13 @@ h2 {
     text-decoration: none;
     color: cornflowerblue;
     margin: 5px;
+<<<<<<< HEAD
     font-size: 1.2vw;
   }
 
+=======
+  }
+>>>>>>> master
 }
 
 .nav :nth-child(2) {
@@ -107,8 +168,12 @@ h2 {
 
 .skills{
   h3{
+<<<<<<< HEAD
     font-size: 40px;
     margin-top: 0;
+=======
+    font-size: 45px;
+>>>>>>> master
   }
   i{
     font-size: 30px;
@@ -153,8 +218,11 @@ header {
 
 .photo-and-greeting {
   display: flex;
+<<<<<<< HEAD
   align-items: center;
   justify-content: center;
+=======
+>>>>>>> master
   h2{
     text-align: center;
   }
@@ -166,7 +234,10 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
   width: 50%;
+=======
+>>>>>>> master
   background-color: $my-red;
   border: groove 10px gray;
 }
@@ -204,6 +275,7 @@ header {
 footer{
   position: fixed;
   bottom: 0;
+<<<<<<< HEAD
   width: 100%;
   text-align: center;
   opacity: 0.5;
@@ -218,6 +290,22 @@ footer{
   justify-content: center;
   width: 80%;
   img {
+=======
+  left: auto;
+  right: auto;
+  align-self: center;
+  opacity: 0.3;
+  font-size: 10px;
+}
+
+.blog-content-wrapper { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  img {
+    margin-left: 10px;
+>>>>>>> master
     border-radius: 10px;
     height: 450px;
   }
@@ -234,7 +322,11 @@ footer{
 
 .photo-and-about {
   display: flex;
+<<<<<<< HEAD
   align-items: center;
+=======
+  
+>>>>>>> master
 }
 
 .dog {
@@ -250,6 +342,10 @@ footer{
 .blog-post-wrapper {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
+=======
+  // background-color: silver;
+>>>>>>> master
 }
 
 .blog-post {
@@ -269,6 +365,10 @@ footer{
   text-align:center;
   margin:auto;
   padding:0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
   }
   p{
     margin: 15px;
@@ -278,6 +378,7 @@ footer{
   }
 }
 
+<<<<<<< HEAD
 .thumbnail:hover {
     position:relative;
     top:-25px;
@@ -288,6 +389,8 @@ footer{
     z-index:999;
 }
 
+=======
+>>>>>>> master
 
 .contact-info{
   display: flex;
@@ -302,16 +405,33 @@ footer{
     text-decoration: none;
     color: black;
   }
+<<<<<<< HEAD
   p{
     color: rgb(225, 227, 232);
   }
+=======
+>>>>>>> master
   i{
     color: $my-red;
     font-size: 45px;
   }
 }
 
+<<<<<<< HEAD
 .contact-item i:hover, .project-item i:hover {
+=======
+
+// .contact-item{
+//   i:hover{
+//   color: slategray;
+//   }
+//   p{
+//     display: none;
+//   }
+// }
+
+.contact-item i:hover {
+>>>>>>> master
   color: slategray;
   .contact-item i::after {content: "0423 822 863";
 }
@@ -344,6 +464,7 @@ footer{
   opacity: 0.75;
 }
 
+<<<<<<< HEAD
 // Mobile phone code
 @media 
 screen and (max-width: 640px),
@@ -475,3 +596,5 @@ screen and (max-width: 1024px) {
     flex-direction: column;
   }
 }
+=======
+>>>>>>> master
